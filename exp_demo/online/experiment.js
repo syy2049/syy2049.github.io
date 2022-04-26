@@ -160,6 +160,8 @@ timeline.push(endTask, {type: "fullscreen", fullscreen_mode: false})
 jsPsych.init({
 timeline: timeline,
 preload_images: preloadImages(),
+on_close: function() {
+    jsPsych.data.get().localSave('csv',`WCST_subject_${subjectId}_quitted_output.csv`); 
 on_data_update: function () {
 
     if (jsPsych.data.get().last(1).values()[0].is_trial === true) {
