@@ -1,0 +1,88 @@
+body {
+    background: #f6f6f8;
+    user-select: none;
+    /* none|auto|text|contain|all; 禁止选中文本（防止复制） */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+}
+
+
+p {
+    font: 18pt 微软雅黑; 
+    text-align: left; 
+    padding: 10px;
+    position:relative;
+	left: 20px;
+    line-height: 1.6em
+
+}
+
+
+p.center {
+    display:block;
+    font: 18pt 微软雅黑; 
+    text-align: center; 
+    margin: auto;
+}
+
+img {
+    width: 15vh;
+}
+
+.choice {
+    position: fixed;
+    left: 50%;
+    bottom: 10vh;
+    transform: translateX(-50%);
+}
+
+
+.topCards {
+     position: relative;
+     bottom: 10vh;
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    left: 20px;
+    text-align: center
+}
+
+h3 {
+    position: relative;
+    top: -15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vh;
+    text-align: center
+}
+
+.feedback {
+    text-align: center;
+    bottom: 15vh;
+}
+
+.formDiv {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startDiv {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.warning{
+    margin-top: 10%;
+}
