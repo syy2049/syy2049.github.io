@@ -246,7 +246,7 @@ const ch = {
     instruction: {
         fourCards: "在本测试中，屏幕上方将出现四张卡片，您将<strong>在屏幕下方收到一张新卡</strong>。",
         newCard: "&#127919<strong>您的任务是根据新卡，从上方四张卡片中选择您认为相匹配的进行分类。</strong>",
-        clickCard: "您可以通过<strong>单击</strong>四张卡片中的一张来对新卡进行选择。<br>",
+        clickCard: "您可以通过<strong>单击四张卡片中的一张</strong>来对新卡进行分类。<br>",
         rule: "&#128273正确答案取决于<strong>分类规则</strong>。我们不会告诉您具体规则是什么，但<strong>我们会给予反馈</strong>。",
     },
     instruction2: {
