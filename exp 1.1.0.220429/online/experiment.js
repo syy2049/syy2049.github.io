@@ -1,8 +1,7 @@
-/* 
-GitHub@syy2049
-*/
 
-function expStart(session, subject) {
+/** 苏泳怡 syy2049@qq.com */
+
+function expStart(subject, session) {
 
 /*************** VARIABLES ***************/
 
@@ -27,7 +26,7 @@ const open_fullscreen = {
         language.fullscreen.fullscreenText,
          '<strong>如果你同意参与，并且清楚理解了上述要求，请点击继续：</strong> '
     ],
-    button_label: '&#9989全屏开始',
+    button_label: '全屏开始',
     delay_after: 100
 }
 const instructions = {
